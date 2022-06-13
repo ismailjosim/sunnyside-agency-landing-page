@@ -2,10 +2,101 @@
             Global Styling
 =====================================*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-  font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* ==================================
+        Header section styling
+=====================================*/
+.header_section {
+    width: 100vw;
+    height: 100vh;
+    background: url(images/desktop/image-header.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header_section .container {
+    margin: 0 5rem;
+}
+
+/* navigation bar */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+}
+
+.nav_link {
+    margin-left: 2rem;
+
+}
+
+.nav_link a {
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+.nav_btn {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.nav_btn a {
+    color: #000;
+    font-weight: 600
+}
+
+
+.content_section {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.down_arrow {
+    display: inline-block;
+    margin-top: 10px;
+
 }
