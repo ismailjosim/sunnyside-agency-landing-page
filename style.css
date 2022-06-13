@@ -17,7 +17,6 @@ li {
 
 a {
     text-decoration: none;
-
 }
 
 /* ==================================
@@ -31,7 +30,7 @@ a {
     position: relative;
 }
 
-.header_section .container {
+.container {
     margin: 0 5rem;
 }
 
@@ -41,7 +40,6 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 0;
-
 }
 
 .logo {
@@ -49,7 +47,6 @@ a {
     font-weight: 900;
     text-transform: uppercase;
     color: #fff;
-
 }
 
 .nav_links {
@@ -59,27 +56,39 @@ a {
 
 .nav_link {
     margin-left: 2rem;
-
 }
 
 .nav_link a {
     color: #fff;
     text-transform: capitalize;
-
+    transition: 0.2s ease;
 }
 
 .nav_btn {
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 8px 18px;
     border-radius: 25px;
+    border: 2px solid #fff;
 }
 
 .nav_btn a {
-    color: #000;
-    font-weight: 600
+    color: #242424;
+    font-weight: 600;
 }
 
+.nav_link a:hover {
+    color: #242424;
+}
 
+.nav_btn:hover {
+    background-color: transparent;
+}
+
+.nav_btn:hover a {
+    color: #fff;
+}
+
+/* navigation bar */
 .content_section {
     position: absolute;
     text-align: center;
@@ -100,3 +109,7 @@ a {
     margin-top: 10px;
 
 }
+
+/* ==================================
+        About section styling
+=====================================*/
