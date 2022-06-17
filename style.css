@@ -23,7 +23,6 @@ a {
         Header section styling
 =====================================*/
 .header_section {
-    width: 100vw;
     height: 100vh;
     background: url(images/desktop/image-header.jpg) center center no-repeat;
     background-size: cover;
