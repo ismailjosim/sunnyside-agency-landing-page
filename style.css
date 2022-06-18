@@ -112,3 +112,14 @@ a {
 /* ==================================
         About section styling
 =====================================*/
+.about {
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.row .col-md-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
