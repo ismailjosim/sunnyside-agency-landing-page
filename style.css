@@ -211,5 +211,136 @@ a {
         About section styling
 =====================================*/
 .testimonials {
-    margin: 2rem 5rem;
+    margin: 10rem 5rem;
+}
+
+.testimonial_headline {
+    text-align: center;
+    margin: 3rem 0;
+    color: #A5A5A5;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.testimonials_row {
+    display: flex;
+}
+
+.testimonials_row .testimonial_box {
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.person {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.testimonial_quote {
+    margin: 2rem 0;
+    color: #848688;
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.testimonial_box .name {
+    font-weight: 700;
+}
+
+.profession {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #848688
+}
+
+/* ==================================
+        About section styling
+=====================================*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+}
+
+.gallery_img_box {
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+
+.gallery_img_box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform .3s;
+}
+
+.gallery_img_box img:hover {
+    transform: scale(1.1);
+}
+
+/* ==================================
+        Footer section styling
+=====================================*/
+.footer_section {
+    background-color: #90D4C5;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.footer_logo .logo {
+    color: #2D7464;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.footer_nav {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer_nav .nav_items {
+    display: flex;
+    color: #2D7464;
+
+}
+
+.footer_nav .nav_link {
+    color: #2D7464;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+
+}
+
+.footer_nav .nav_link:hover {
+    color: #fff;
+}
+
+.social_links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_links ul li {
+    margin: 1rem;
+}
+
+.social_links ul li i {
+    font-size: 1.5rem;
+    transition: .3s ease-in-out;
+
+}
+
+.social_links ul li i:hover {
+    color: #fff;
 }
